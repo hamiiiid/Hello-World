@@ -1,0 +1,14 @@
+#I am trying to lear python, so this is a sample code for calculating net income
+def netincome(a, b, c,):
+    print "Your net income in a month is:"
+    d = a - (b + c)
+    return d
+print 
+a = int(raw_input("Please tell us your how much do you earn in every month: "))
+print "\n"
+b = int(raw_input("please enter your renting costs: " ))
+print "\n"
+c = int(raw_input("Please enter your loan cost: "))
+print "\n"
+netincome = netincome(a, b, c)
+print netincome 
